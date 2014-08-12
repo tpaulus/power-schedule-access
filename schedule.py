@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from pprint import pprint  # DEBUG
 import sys  # DEBUG
 
 import powerapi
@@ -8,8 +7,8 @@ import re
 
 ps = powerapi.core('https://powerschool.ramonausd.net/')
 
-username = 'user'
-password = 'pass'
+username = str(raw_input('Username: '))
+password = str(raw_input('Password: '))
 
 try:
     user = ps.auth(username, password)
