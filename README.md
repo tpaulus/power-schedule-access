@@ -1,6 +1,6 @@
 PowerAPI-python
 ============
-Library for fetching information from PowerSchool SISes.
+Get your schedule before they are published!
 
 Requirements
 ------------
@@ -9,11 +9,11 @@ Requirements
 
 Usage
 -----
-A basic demo is provided in `demo.py`
+Modify the schedule.py file to have the correct username and password as well as the PowerSchool login url
 
 License
 -------
-Copyright (c) 2013 Henri Watson.
+Copyright (c) 2014 Tom Paulus.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
