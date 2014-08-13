@@ -1,6 +1,7 @@
-PowerAPI-python
+Power Schedule Access
 ============
-Get your schedule before they are published!
+Get your Class schedule via Snake (Python)!
+Works well if you want to know your schedule before they are published on the PowerSchool web Portal.
 
 Requirements
 ------------
@@ -9,7 +10,7 @@ Requirements
 
 Usage
 -----
-Modify the schedule.py file to have the correct username and password as well as the PowerSchool login url
+Modify the schedule.py file to have the correct PowerSchool login url. Username and Password will be requested at runtime.
 
 License
 -------
